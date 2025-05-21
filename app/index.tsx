@@ -1,16 +1,16 @@
-import { View } from "react-native";
-import { Home } from "@/components";
+import { Home } from '@/components'
+import { View } from 'react-native'
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Home />
-    </View>
-  );
+    return (
+        <View
+            style={{
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}
+        >
+            <Home />
+        </View>
+    )
 }
